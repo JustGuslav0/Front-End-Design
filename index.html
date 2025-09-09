@@ -6,6 +6,7 @@
     <title>Hello World</title>
 </head>
 <body>
+    <!-- Tipos de títulos -->
     <h1>Hello World!</h1>
     <h2>Minha primeira págna web</h2>
     <h3>Começando a aula de front-end</h3>
@@ -13,15 +14,53 @@
     <h5>Cyntia Sayuri</h5>
     <h6>01/09/2025</h6>
 
+    <!-- Tipos de textos/parágrafos -->
     <p>Texto em <b>bold</b> ou <strong>strong</strong></p>
     <p>Texto em <i>itálisco</i> ou <em>emphasis</em></p>
     <p>Texto em <sup>sobrescrito</sup> ou <sub>subscrito</sub></p>
     <p>Texto em <ins>sublinado</ins> ou <del>tachado</del> </p>
     <p>Texto em <small>pequeno</small> ou <mark>destaque</mark> </p>
 
+    <!-- Utilizando uma imagem de uma pasta, selecionando a pasta com ./ -->
+     <!-- alt é a descrição quando colocado no modo descrição -->
     <img src="./images/img.jpg" alt="Mulher ruiva do cabelo grande" title="Mulher ruiva do cabelo grande">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hECmWCcJT5c?si=Pa1D50FdKCm12Ioy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    <img src="https://picsum.photos/200/300" autoplay loop muted>
+    <!-- Vídeo do youtube - compartilhar e ir para incorporar -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hECmWCcJT5c?si=Pa1D50FdKCm12Ioy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    
+    <!-- Imagem aleatória do site lorum picsum -->
+    <img src="https://picsum.photos/200/300">
 
+    <!-- Colocar sempre isso nos videos em repetição, para que seja sempre em loop, sem som e que não precise apertar para iniciar -->
+    <video src="./images/video.mp4" autoplay loop muted> </video> 
+
+    <!-- Lista desordenada que fica com um ° -->
+    <ul>
+        <!-- Itens da lista -->
+        <li>
+            <!-- Link utilizando a, que quando clica redireciona a página -->
+            <a href="https://www.youtube.com/">
+                link
+            </a>
+        </li>
+        <li>
+            <!-- Link utilizando uma imagem -->
+             <!-- target:"_blank" quer dizer que quando clicar, irá entrar o link em outra página -->
+            <a href="https://github.com/" target="_blank">
+                <img src="https://preflib.github.io/PrefLib-Jekyll/assets/img/gitHubLogo.png" alt="" width="100px" height="100px">
+            </a>
+        </li>
+    </ul>
+    <!-- Lista com números ordenando ela:
+     1.
+     2.
+     3.
+    -->
+    <ol>
+        <!-- Link para outra página da pasta -->
+        <li><a href="./page2.html">Outra página</a></li>
+        <li></li>
+        <li></li>
+    </ol>
 </body>
 </html>
