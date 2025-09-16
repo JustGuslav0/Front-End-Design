@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.banner{
+    height: 200px;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Funnel Sans', Calibri, Roboto;
+}
+
+.imagem{
+    width: 370px;
+    height: 350px;
+    margin: 20px;
+    border: 2px dotted red;
+    border-radius: 25px;
+}
+
+p {
+    background-color: rgb(206, 189, 189);
+    border: 3px solid red;
+    padding: 20px;
+    height: 30px;
+}
